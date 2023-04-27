@@ -373,6 +373,7 @@ a[href*='mailto'] {
 	letter-spacing: normal;
 	text-transform: uppercase;
 	font-family: "Montserrat", sans-serif, Arial, sans-serif;
+	padding-bottom: 10px;
 }
 
 .link-classic,
@@ -426,18 +427,18 @@ a[href*='mailto'] {
 }
 
 *+.link-classic {
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 @media (min-width: 768px) {
 	*+.link-classic {
-		margin-top: 40px;
+		margin-top: 25px;
 	}
 }
 
 @media (min-width: 992px) {
 	.container+.link-classic {
-		margin-top: 56px;
+		margin-top: 25px;
 	}
 }
 
@@ -9124,7 +9125,7 @@ textarea.textarea-lg {
 }
 
 *+.footer-contacts {
-	margin-top: 28px;
+	margin-top: 3px;
 }
 
 .footer-social-list-2 .icon {
@@ -9339,7 +9340,7 @@ textarea.textarea-lg {
 
 
 .footer-corporate-bottom-panel {
-	padding: 30px 0;
+	padding: 10px 0;
 	background: #11263a;
 	color: rgba(255, 255, 255, 0.3);
 }
@@ -12382,7 +12383,7 @@ h3+img {
 }
 
 *+.owl-carousel {
-	margin-top: 30px;
+	margin-top: 5px;
 }
 
 *+.offset-top-30 {
@@ -12769,7 +12770,7 @@ h4+.instafeed {
 .section-md,
 .section-lg,
 .section-xl {
-	padding: 60px 0;
+	padding: 0px 0;
 }
 
 html [class*='section-'].section-bottom-0 {
@@ -12788,7 +12789,7 @@ html [class*='section-'].section-top-0 {
 
 @media (min-width: 768px) {
 	.section-sm {
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 
 	.section-sm.section-first {
@@ -12804,7 +12805,7 @@ html [class*='section-'].section-top-0 {
 	}
 
 	.section-lg {
-		padding: 80px 0;
+		padding: 0px 0;
 	}
 
 	.section-xl {
@@ -12814,7 +12815,7 @@ html [class*='section-'].section-top-0 {
 
 @media (min-width: 992px) {
 	.section-sm {
-		padding: 50px 0;
+		padding: 10px 0;
 	}
 
 	.section-sm.section-first {
@@ -12830,7 +12831,7 @@ html [class*='section-'].section-top-0 {
 	}
 
 	.section-lg {
-		padding: 90px 0;
+		padding: 0px 0;
 	}
 
 	.section-inset-custom-6,
@@ -22317,7 +22318,7 @@ h1+.tabs-line {
 	text-align: center;
 	font-size: 0;
 	line-height: 0;
-	bottom: 30px;
+	/* bottom: 30px; */
 	width: 100%;
 }
 

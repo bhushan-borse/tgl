@@ -185,6 +185,8 @@ img {
 
 .img-circle {
 	border-radius: 50%;
+	max-width: 120px;
+	max-height: 120px;
 }
 
 hr {
@@ -2568,8 +2570,8 @@ form.label-outside .form-validation {
 }
 
 .section-60 {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 
 .section-66 {
@@ -2696,8 +2698,8 @@ form.label-outside .form-validation {
 		padding-bottom: 75px;
 	}
 	.section-md-90 {
-		padding-top: 90px;
-		padding-bottom: 90px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 	.section-md-100 {
 		padding-top: 100px;
@@ -2754,10 +2756,10 @@ form.label-outside .form-validation {
 		padding-top: 90px;
 		padding-bottom: 90px;
 	}
-	.section-lg-100 {
+	/* .section-lg-100 {
 		padding-top: 100px;
 		padding-bottom: 100px;
-	}
+	} */
 	.section-lg-120 {
 		padding-top: 120px;
 		padding-bottom: 120px;
@@ -2810,8 +2812,8 @@ form.label-outside .form-validation {
 		padding-bottom: 90px;
 	}
 	.section-xl-100 {
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 5px;
+		padding-bottom: 30px;
 	}
 	.section-xl-120 {
 		padding-top: 120px;
@@ -3351,7 +3353,7 @@ form.label-outside .form-validation {
 		padding-bottom: 90px;
 	}
 	.section-xl-bottom-100 {
-		padding-bottom: 100px;
+		padding-bottom: 35px;
 	}
 	.section-xl-bottom-120 {
 		padding-bottom: 120px;
@@ -5174,7 +5176,7 @@ blockquote cite {
 }
 
 * + .row {
-	margin-top: 35px;
+	margin-top: 15px;
 }
 
 * + .box-text {
