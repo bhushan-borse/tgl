@@ -214,6 +214,7 @@ figure {
 
 #colorlib-main {
   width: calc(100% - 300px);
+
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -221,7 +222,16 @@ figure {
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
-      padding: 0 1em; } }
+      padding: 0 1em;
+    } }
+
+    @media screen and (max-width: 1250px) {
+      #colorlib-main {
+        width: 75%;
+      /* margin-right: 55px; */
+        /* 
+        padding: 0 1em; */
+      } }
 
 #colorlib-hero {
   /* min-height: 500px; */
