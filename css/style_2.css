@@ -4043,9 +4043,9 @@ blockquote cite {
 	fill: #cfaa45;
 }
 
-.quote-bordered .quote-footer {
+/* .quote-bordered .quote-footer {
 	padding-left: 25px;
-}
+} */
 
 .quote-bordered cite {
 	font-size: 17px;
