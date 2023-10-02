@@ -26023,3 +26023,7 @@ screen and (max-height: 300px) {
 		display: none;
 	}
 }
+
+.font-changes{
+	font-family: "Nunito",sans-serif;
+}
